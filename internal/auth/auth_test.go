@@ -23,7 +23,7 @@ func TestAuth(t *testing.T) {
 		},
 		"noKey": {
 			input: http.Header{
-				"Authorization": []string{"ApiKey "},
+				"Authorization": []string{"ApiKey"},
 			},
 			want:    "",
 			wantErr: ErrMalformedAuthHeader,
