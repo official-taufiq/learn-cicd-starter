@@ -47,5 +47,3 @@ jobs:
 
       - name: staticcheck
         run: staticcheck ./...
-
-      
